@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F030EE628DA46EB006B4867 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F030EE528DA46EB006B4867 /* UserRepository.swift */; };
+		7F24F11028D9BBFA004C5D59 /* FlashCardSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24F10F28D9BBFA004C5D59 /* FlashCardSwipeView.swift */; };
+		7F24F11228D9DCF7004C5D59 /* UserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24F11128D9DCF7004C5D59 /* UserLoginView.swift */; };
+		7F469E9628D889BA00BB0C25 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469E9528D889BA00BB0C25 /* FirebaseAuth */; };
+		7F469E9828D889BA00BB0C25 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469E9728D889BA00BB0C25 /* FirebaseAuthCombine-Community */; };
+		7F469E9A28D889BA00BB0C25 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469E9928D889BA00BB0C25 /* FirebaseDatabase */; };
+		7F469E9C28D889BA00BB0C25 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469E9B28D889BA00BB0C25 /* FirebaseDatabaseSwift */; };
+		7F469E9E28D889BA00BB0C25 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469E9D28D889BA00BB0C25 /* FirebaseFirestore */; };
+		7F469EA028D889BA00BB0C25 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469E9F28D889BA00BB0C25 /* FirebaseFirestoreCombine-Community */; };
+		7F469EA228D889BA00BB0C25 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F469EA128D889BA00BB0C25 /* FirebaseFirestoreSwift */; };
+		7F469EA428D89D6600BB0C25 /* FlashCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F469EA328D89D6600BB0C25 /* FlashCardListView.swift */; };
+		7F469EA628D89E7D00BB0C25 /* FlashCardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F469EA528D89E7D00BB0C25 /* FlashCardListViewModel.swift */; };
+		7F469EA828D8A5A700BB0C25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F469EA728D8A5A700BB0C25 /* GoogleService-Info.plist */; };
+		7F469EAA28D8A8A100BB0C25 /* FlashCardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F469EA928D8A8A100BB0C25 /* FlashCardCellView.swift */; };
+		7F469EAC28D99EEC00BB0C25 /* AddNewFlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F469EAB28D99EEC00BB0C25 /* AddNewFlashCardView.swift */; };
+		7F469EAE28D9A59D00BB0C25 /* AddFlashCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F469EAD28D9A59D00BB0C25 /* AddFlashCardViewModel.swift */; };
+		7F7C1A9128DB48E100BAC61E /* UserLoginViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C1A9028DB48E100BAC61E /* UserLoginViewModifiers.swift */; };
+		7F7C1A9328DB498D00BAC61E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C1A9228DB498D00BAC61E /* Extensions.swift */; };
+		7F7C1A9528DB576A00BAC61E /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C1A9428DB576900BAC61E /* UserRepositoryProtocol.swift */; };
+		7F7C1A9728DB581700BAC61E /* FlashCardViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C1A9628DB581700BAC61E /* FlashCardViewModifiers.swift */; };
 		7FBC4ED128D4698400AE2DD6 /* CreateYourFlashCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4ED028D4698400AE2DD6 /* CreateYourFlashCardsApp.swift */; };
 		7FBC4ED328D4698400AE2DD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4ED228D4698400AE2DD6 /* ContentView.swift */; };
 		7FBC4ED528D4698400AE2DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBC4ED428D4698400AE2DD6 /* Assets.xcassets */; };
@@ -14,6 +34,12 @@
 		7FBC4EE228D4698400AE2DD6 /* CreateYourFlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4EE128D4698400AE2DD6 /* CreateYourFlashCardsTests.swift */; };
 		7FBC4EEC28D4698500AE2DD6 /* CreateYourFlashCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4EEB28D4698500AE2DD6 /* CreateYourFlashCardsUITests.swift */; };
 		7FBC4EEE28D4698500AE2DD6 /* CreateYourFlashCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4EED28D4698500AE2DD6 /* CreateYourFlashCardsUITestsLaunchTests.swift */; };
+		7FBC4F0128D46A5A00AE2DD6 /* FlashCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4F0028D46A5A00AE2DD6 /* FlashCardModel.swift */; };
+		7FBC4F0428D46A6B00AE2DD6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4F0328D46A6B00AE2DD6 /* UserModel.swift */; };
+		7FBC4F0628D46A7900AE2DD6 /* FlashCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4F0528D46A7900AE2DD6 /* FlashCardViewModel.swift */; };
+		7FBC4F0828D46A8300AE2DD6 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4F0728D46A8300AE2DD6 /* UserViewModel.swift */; };
+		7FBC4F0B28D46E9C00AE2DD6 /* FlashCardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4F0A28D46E9C00AE2DD6 /* FlashCardRepository.swift */; };
+		7FBC4F0D28D46F7500AE2DD6 /* FlashCardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC4F0C28D46F7500AE2DD6 /* FlashCardProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F030EE528DA46EB006B4867 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		7F24F10F28D9BBFA004C5D59 /* FlashCardSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardSwipeView.swift; sourceTree = "<group>"; };
+		7F24F11128D9DCF7004C5D59 /* UserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginView.swift; sourceTree = "<group>"; };
+		7F469EA328D89D6600BB0C25 /* FlashCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardListView.swift; sourceTree = "<group>"; };
+		7F469EA528D89E7D00BB0C25 /* FlashCardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardListViewModel.swift; sourceTree = "<group>"; };
+		7F469EA728D8A5A700BB0C25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F469EA928D8A8A100BB0C25 /* FlashCardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardCellView.swift; sourceTree = "<group>"; };
+		7F469EAB28D99EEC00BB0C25 /* AddNewFlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFlashCardView.swift; sourceTree = "<group>"; };
+		7F469EAD28D9A59D00BB0C25 /* AddFlashCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlashCardViewModel.swift; sourceTree = "<group>"; };
+		7F7C1A9028DB48E100BAC61E /* UserLoginViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewModifiers.swift; sourceTree = "<group>"; };
+		7F7C1A9228DB498D00BAC61E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7F7C1A9428DB576900BAC61E /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		7F7C1A9628DB581700BAC61E /* FlashCardViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewModifiers.swift; sourceTree = "<group>"; };
 		7FBC4ECD28D4698400AE2DD6 /* CreateYourFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateYourFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBC4ED028D4698400AE2DD6 /* CreateYourFlashCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYourFlashCardsApp.swift; sourceTree = "<group>"; };
 		7FBC4ED228D4698400AE2DD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +83,12 @@
 		7FBC4EE728D4698400AE2DD6 /* CreateYourFlashCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateYourFlashCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBC4EEB28D4698500AE2DD6 /* CreateYourFlashCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYourFlashCardsUITests.swift; sourceTree = "<group>"; };
 		7FBC4EED28D4698500AE2DD6 /* CreateYourFlashCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYourFlashCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FBC4F0028D46A5A00AE2DD6 /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
+		7FBC4F0328D46A6B00AE2DD6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7FBC4F0528D46A7900AE2DD6 /* FlashCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewModel.swift; sourceTree = "<group>"; };
+		7FBC4F0728D46A8300AE2DD6 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		7FBC4F0A28D46E9C00AE2DD6 /* FlashCardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardRepository.swift; sourceTree = "<group>"; };
+		7FBC4F0C28D46F7500AE2DD6 /* FlashCardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F469E9C28D889BA00BB0C25 /* FirebaseDatabaseSwift in Frameworks */,
+				7F469E9A28D889BA00BB0C25 /* FirebaseDatabase in Frameworks */,
+				7F469E9628D889BA00BB0C25 /* FirebaseAuth in Frameworks */,
+				7F469EA228D889BA00BB0C25 /* FirebaseFirestoreSwift in Frameworks */,
+				7F469EA028D889BA00BB0C25 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				7F469E9E28D889BA00BB0C25 /* FirebaseFirestore in Frameworks */,
+				7F469E9828D889BA00BB0C25 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +146,14 @@
 		7FBC4ECF28D4698400AE2DD6 /* CreateYourFlashCards */ = {
 			isa = PBXGroup;
 			children = (
+				7F469EA728D8A5A700BB0C25 /* GoogleService-Info.plist */,
+				7FBC4F0928D46E8700AE2DD6 /* Repository */,
+				7FBC4EFF28D46A4500AE2DD6 /* Modifiers */,
+				7FBC4EFE28D46A3B00AE2DD6 /* Extensions */,
+				7FBC4EFD28D46A3400AE2DD6 /* Protocols */,
+				7FBC4EFC28D46A2E00AE2DD6 /* View */,
+				7FBC4EFB28D46A2500AE2DD6 /* ViewModel */,
+				7FBC4EFA28D46A1F00AE2DD6 /* Model */,
 				7FBC4ED028D4698400AE2DD6 /* CreateYourFlashCardsApp.swift */,
 				7FBC4ED228D4698400AE2DD6 /* ContentView.swift */,
 				7FBC4ED428D4698400AE2DD6 /* Assets.xcassets */,
@@ -127,6 +187,73 @@
 			path = CreateYourFlashCardsUITests;
 			sourceTree = "<group>";
 		};
+		7FBC4EFA28D46A1F00AE2DD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC4F0028D46A5A00AE2DD6 /* FlashCardModel.swift */,
+				7FBC4F0328D46A6B00AE2DD6 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FBC4EFB28D46A2500AE2DD6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC4F0528D46A7900AE2DD6 /* FlashCardViewModel.swift */,
+				7FBC4F0728D46A8300AE2DD6 /* UserViewModel.swift */,
+				7F469EA528D89E7D00BB0C25 /* FlashCardListViewModel.swift */,
+				7F469EAD28D9A59D00BB0C25 /* AddFlashCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7FBC4EFC28D46A2E00AE2DD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F469EA328D89D6600BB0C25 /* FlashCardListView.swift */,
+				7F469EA928D8A8A100BB0C25 /* FlashCardCellView.swift */,
+				7F469EAB28D99EEC00BB0C25 /* AddNewFlashCardView.swift */,
+				7F24F10F28D9BBFA004C5D59 /* FlashCardSwipeView.swift */,
+				7F24F11128D9DCF7004C5D59 /* UserLoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FBC4EFD28D46A3400AE2DD6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC4F0C28D46F7500AE2DD6 /* FlashCardProtocol.swift */,
+				7F7C1A9428DB576900BAC61E /* UserRepositoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7FBC4EFE28D46A3B00AE2DD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F7C1A9228DB498D00BAC61E /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7FBC4EFF28D46A4500AE2DD6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				7F7C1A9028DB48E100BAC61E /* UserLoginViewModifiers.swift */,
+				7F7C1A9628DB581700BAC61E /* FlashCardViewModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		7FBC4F0928D46E8700AE2DD6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC4F0A28D46E9C00AE2DD6 /* FlashCardRepository.swift */,
+				7F030EE528DA46EB006B4867 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +270,15 @@
 			dependencies = (
 			);
 			name = CreateYourFlashCards;
+			packageProductDependencies = (
+				7F469E9528D889BA00BB0C25 /* FirebaseAuth */,
+				7F469E9728D889BA00BB0C25 /* FirebaseAuthCombine-Community */,
+				7F469E9928D889BA00BB0C25 /* FirebaseDatabase */,
+				7F469E9B28D889BA00BB0C25 /* FirebaseDatabaseSwift */,
+				7F469E9D28D889BA00BB0C25 /* FirebaseFirestore */,
+				7F469E9F28D889BA00BB0C25 /* FirebaseFirestoreCombine-Community */,
+				7F469EA128D889BA00BB0C25 /* FirebaseFirestoreSwift */,
+			);
 			productName = CreateYourFlashCards;
 			productReference = 7FBC4ECD28D4698400AE2DD6 /* CreateYourFlashCards.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +351,9 @@
 				Base,
 			);
 			mainGroup = 7FBC4EC428D4698300AE2DD6;
+			packageReferences = (
+				7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7FBC4ECE28D4698400AE2DD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FBC4ED828D4698400AE2DD6 /* Preview Assets.xcassets in Resources */,
+				7F469EA828D8A5A700BB0C25 /* GoogleService-Info.plist in Resources */,
 				7FBC4ED528D4698400AE2DD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +397,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7C1A9728DB581700BAC61E /* FlashCardViewModifiers.swift in Sources */,
+				7F24F11228D9DCF7004C5D59 /* UserLoginView.swift in Sources */,
+				7F7C1A9328DB498D00BAC61E /* Extensions.swift in Sources */,
+				7F24F11028D9BBFA004C5D59 /* FlashCardSwipeView.swift in Sources */,
+				7FBC4F0128D46A5A00AE2DD6 /* FlashCardModel.swift in Sources */,
+				7FBC4F0828D46A8300AE2DD6 /* UserViewModel.swift in Sources */,
+				7F469EAC28D99EEC00BB0C25 /* AddNewFlashCardView.swift in Sources */,
 				7FBC4ED328D4698400AE2DD6 /* ContentView.swift in Sources */,
+				7F469EAA28D8A8A100BB0C25 /* FlashCardCellView.swift in Sources */,
+				7F7C1A9128DB48E100BAC61E /* UserLoginViewModifiers.swift in Sources */,
+				7F469EAE28D9A59D00BB0C25 /* AddFlashCardViewModel.swift in Sources */,
+				7F469EA628D89E7D00BB0C25 /* FlashCardListViewModel.swift in Sources */,
+				7FBC4F0628D46A7900AE2DD6 /* FlashCardViewModel.swift in Sources */,
+				7FBC4F0D28D46F7500AE2DD6 /* FlashCardProtocol.swift in Sources */,
+				7FBC4F0428D46A6B00AE2DD6 /* UserModel.swift in Sources */,
 				7FBC4ED128D4698400AE2DD6 /* CreateYourFlashCardsApp.swift in Sources */,
+				7F469EA428D89D6600BB0C25 /* FlashCardListView.swift in Sources */,
+				7F7C1A9528DB576A00BAC61E /* UserRepositoryProtocol.swift in Sources */,
+				7F030EE628DA46EB006B4867 /* UserRepository.swift in Sources */,
+				7FBC4F0B28D46E9C00AE2DD6 /* FlashCardRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +741,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 9.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F469E9528D889BA00BB0C25 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7F469E9728D889BA00BB0C25 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		7F469E9928D889BA00BB0C25 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7F469E9B28D889BA00BB0C25 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		7F469E9D28D889BA00BB0C25 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7F469E9F28D889BA00BB0C25 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		7F469EA128D889BA00BB0C25 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F469E9428D889BA00BB0C25 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FBC4EC528D4698300AE2DD6 /* Project object */;
 }
